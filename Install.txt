@@ -1,0 +1,16 @@
+conda create --name animal_classification python=3.5
+conda activate object_detection
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org torch===0.4.1 torchvision===0.4.2 -f https://download.pytorch.org/whl/torch_stable.html
+pip3 install opencv-python 
+pip install matplotlib 
+pip install wheel 
+pip install pandas
+
+Running the software:
+First run this code to activate the environment:
+conda activate object_detection
+
+
+Run the project
+python animals.py --video 3.mp4
+
